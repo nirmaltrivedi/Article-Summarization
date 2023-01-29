@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Articles</title>
+</head>
+<body>
+
+<div>
+{% for i in data %}
+    <div>
+    Title: {{i.title}}<br>
+    Url: {{i.url}}<br>
+    Content: {{i.content}}<br>
+    Summary: {{i.summary}}<br>
+        Author:Anonymous
+    </div>
+    <br><br>
+{% endfor %}
+</div>
+
+</body>
+</html>
